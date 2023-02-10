@@ -1,7 +1,15 @@
-<script setup lang="ts">
-import { RouterView } from "vue-router";
+<template>
+  <div>
+    <HomeView></HomeView>
+  </div>
+</template>
+
+<script lang="ts">
+import HomeView from "./views/HomeView.vue";
+
+export default {
+  components: { HomeView },
+};
 </script>
 
-<template>
-  <RouterView />
-</template>
+<style lang="scss" scoped></style>
